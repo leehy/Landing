@@ -1,0 +1,282 @@
+// Main Landing Page
+
+/* Nav bar */
+@media (max-width:300px){
+    .navbar{
+        display:none;
+    }
+}
+.navbar.navbar-custom.navbar-fixed-top{
+    background-color:#33302C;
+}
+
+@media (max-width:767px){
+    #color-button{
+        background-color:#fff;
+        display:none;
+    }
+}
+#logo-top{
+    width:130%;
+
+}
+
+.intro h1{
+    text-transform : none;
+    font-family: Arista_Light;
+    //color :#676767;
+    //text-shadow: #33302C 1px 1px, #33302C -1px 1px, #33302C -1px -1px, #33302C 1px -1px;
+    text-shadow: #fff 2px 2px, #fff -2px 2px, #fff -2px -2px, #fff 2px -2px;
+    color :#33302C;
+}
+.intro p{
+    color : #33302C;
+    //text-shadow: #33302C 1px 1px, #33302C -1px 1px, #33302C -1px -1px, #33302C 1px -1px;
+    text-shadow: #fff 1px 1px, #fff -1px 1px, #fff -1px -1px, #fff 1px -1px;
+
+}
+.delete-padding{
+    padding : -15px -15px;
+}
+
+#img-ring{
+    width:100%;
+    height:auto;
+}
+
+.padding-top-10{
+    padding-top:10%;
+}
+
+.padding-top-20{
+    padding-top:20%;
+}
+
+.padding-top-30{
+    padding-top:30%;
+}
+
+.width-full{
+    width:100%;
+}
+
+.height-full{
+    height:100%;
+}
+#video-prom{
+    width:100%;
+    height:100%;
+}
+
+.size-block-one-page{
+    height:600px;
+}
+
+#img-video{
+    display:table;
+    height:100%;
+    width:100%;
+    //padding:100px 0;
+    text-align:center;
+    color:#fff;
+    background:url(../img/home_page.jpg) bottom center no-repeat #000;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+    -o-background-size:cover
+
+
+}
+@media (max-width:767px){
+    #img-video{
+        height:auto;
+        width:100%;
+    }
+    
+}
+
+#about p{
+    color:#676767;
+}
+
+#video{
+    height:100%;
+    width:100%;
+}
+
+#video.content-section{
+    padding-top:150px;
+}
+
+#img-video a p,#img-video a h3{
+    color:#ffffff;
+}
+
+#logo-play{
+    width:350px;
+    height:350px;
+}
+
+/* Newsletter part */
+.newsletter{
+    text-align:center;
+}
+
+.newsletter input{
+    min-width:100px;
+    max-width:200px;
+    padding: 10px 20px;
+    margin : 15px 10px;
+    text-transform:uppercase;
+    font-size:15px;
+    letter-spacing:1px;
+    text-align:center;
+}
+@media (min-width:767px){
+    .newsletter input{
+        min-width:500px;
+    }
+}
+
+.newsletter button{
+    border:1px solid #000;
+    background-color: #33302C;
+    margin: 15px 0px;
+}
+.bt{
+    background : #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform:uppercase;
+    font-size:15px;
+    letter-spacing:1px;
+}
+
+#news{
+    width:100%;
+    background:url(../img/Piano-drap-blanc-70.jpg) bottom center no-repeat #000;
+    height:100%;
+
+
+}
+
+.newsletter-email{
+    border: 1px solid rgb(0,0,0);
+}
+
+#news.content-section{
+    padding-top:25%;
+}
+#news h1{
+    color:#33302C;
+}
+
+/* Fonts declaration */
+@font-face {
+    font-family: "Gotham_Light";
+    src: url(../fonts/Gotham_Light.otf);
+} 
+
+@font-face {
+    font-family:"Arista_Light";
+    src: url(../fonts/Arista2.0Alternate-LightTrial.ttf);
+}
+
+@media (min-width:300px){
+    #info{
+        margin-bottom:100px;
+    }
+}
+
+/* Margins control between blocks */
+@media (min-width:767px){
+    #news{
+        margin-top:-150px;
+    }
+    #info{
+        margin-bottom:350px;
+    }
+
+}
+
+
+/* Fancy Box Part */
+.fancybox-nav {
+    width: 60px;       
+}
+
+.fancybox-nav span {
+    visibility: visible;
+}
+
+.fancybox-next {
+    right: -60px;
+}
+
+.fancybox-prev {
+    left: -60px;
+}
+
+/* Mailchimp */
+#mce-error-response, #mce-success-response{
+    font-size:24px;
+    font-family: Gotham_Light,Helvetica, Arial, sans-serif;
+}
+#mce-error-response{
+    color:#000000;
+}
+mce-success-response{
+    color:#000000;
+}
+// Thank page 
+.thank_page_slider{
+    width : 100%;
+}
+.thank_page_slider h1{
+    color:#fff;
+}
+
+@media (min-width:768px){
+    .thank_page_slider{
+        display:table;
+        height:auto;
+        padding:100px 0;
+        text-align:center;
+        color:#fff;
+        background:url(../img/background-thank-page.jpg) bottom center no-repeat #000;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        background-size:cover;
+        -o-background-size:cover
+    }
+    .thank_page_slider .intro-body{
+        display:table-cell;
+        vertical-align:middle
+    }
+    .thank_page_slider .intro-body .brand-heading{
+        font-size:40px
+    }
+    .thank_page_slider .intro-body .intro-text{
+        font-size:18px
+    }
+
+    .thank_page_slider{
+        height:100%;
+        padding:0;
+        width:100%;
+    }
+    .thank_page_slider .intro-body .brand-heading{
+        font-size:100px
+    }
+    .thank_page_slider .intro-body .intro-text{
+        font-size:26px
+    }
+}
+
+@media (max-width:300px){
+    
+}
+
+
+
+
